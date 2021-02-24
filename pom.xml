@@ -12,10 +12,10 @@
 	<artifactId>hello-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>Hello Service war/java11</name>
-	<description>Hello Service for Spring Boot (war/java11)</description>
+	<name>Hello Service war/java8</name>
+	<description>Hello Service for Spring Boot (war/java8)</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
