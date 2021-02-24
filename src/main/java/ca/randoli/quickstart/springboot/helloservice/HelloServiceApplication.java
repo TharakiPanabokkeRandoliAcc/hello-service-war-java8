@@ -16,6 +16,6 @@ public class HelloServiceApplication {
 
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("Hello Mr %s! This is Hello Service War/java11", name);
+		return String.format("Hello Mr %s! This is Hello Service War/java8", name);
 	}
 }
